@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Cookie;
 
 class StylesController extends Controller
 {
@@ -13,8 +14,10 @@ class StylesController extends Controller
      {  
         $style= \App\Style::all();
 
+        //Cookie::make('name', $style);
         //dd($style);
          return view('layouts.template', compact('style'));
       }
  
+      
 }

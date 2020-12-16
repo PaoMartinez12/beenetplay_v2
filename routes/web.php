@@ -14,7 +14,7 @@
 /*Route::get('/', function () {
     return view('layouts.template');
 });*/
-Route::get('/', 'StylesController@index');
+Route::get('/', 'StylesController@index')->name('home');
 
 Route::get('/portfolio', function () {
     return view('pages.portfolio');

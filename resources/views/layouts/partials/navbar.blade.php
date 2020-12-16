@@ -1,5 +1,5 @@
 <!-- Menu vertical -->
-<nav class="navbar navbar-dark fixed-top navbar-expand-md" style="background:{{$style[0]->navbarColor}};" >
+<nav class="navbar navbar-dark fixed-top navbar-expand-md" >
     <a class="navbar-brand" href="#">
         {{--<img src="{{ asset('posters/NextTV_logo1.png')}}" width="160" class="d-inline-block align-top" alt="" loading="lazy">--}}
         <img src="{{ asset('posters/NextTV_logo1.png')}}" width="160" class="d-inline-block align-top" alt="" loading="lazy">

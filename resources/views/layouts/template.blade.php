@@ -329,7 +329,7 @@
 </head>
 
 
-<body style="background:{{$style[0]->backgroundColor}};">
+<body style="background:{{$style[0]->backgroundColor}}">
     <div class="container" > 
 
         @include('layouts.partials.navbar');
