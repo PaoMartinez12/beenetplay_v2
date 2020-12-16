@@ -1,5 +1,5 @@
 {{--fOOTER--}}
-<div  style="background: black;">
+<div  style="background:{{$style[0]->footerColor}};">
     <center>
         <div class="container">
             <div class="row">

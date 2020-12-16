@@ -11,9 +11,10 @@
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('layouts.template');
-});
+});*/
+Route::get('/', 'StylesController@index');
 
 Route::get('/portfolio', function () {
     return view('pages.portfolio');

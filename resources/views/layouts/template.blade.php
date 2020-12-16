@@ -16,6 +16,7 @@
     <!-- Slick -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" />
+    <!--Estilos css generales-->
     <style>
         html {
             min-height: 100%;
@@ -286,7 +287,7 @@
         });
 
         //
-        registerAPI();
+       // registerAPI();
     });
 
     //Proceso para obtener la url
@@ -294,7 +295,7 @@
     //PASO1
     //--------------------------Funcion para extraer la url del canal que se esta reproduciendo -------------------
     //Register API (an setInterval is required because the player is not available until the youtube API is loaded).
-    var registerAPIInterval;
+   /* var registerAPIInterval;
     
     function registerAPI(){
         //se limpia el intervalo para registro de la API
@@ -321,15 +322,15 @@
 
         //Se guarda valor en una cookie
         localStorage.setItem("urlCast", prueba);	
-    }
+    }*/
 </script>	 
 
     
 </head>
 
 
-<body>
-    <div class="container">
+<body style="background:{{$style[0]->backgroundColor}};">
+    <div class="container" > 
 
         @include('layouts.partials.navbar');
 
