@@ -1,6 +1,49 @@
 @extends('layouts.template')
 
 @section('content')
-<br><br><br>
-    <h1>Seccion de canales</h1>
+    @include('layouts.partials.carousel')
+
+    <br>
+    <h1>Locales</h1>
+    <div class="container">
+        <div class="row slider">
+            <div><img src="{{ asset('posters/banner1.png') }}" alt="Girl in a jacket" width="200" height="200"></div>
+            <div><img src="{{ asset('posters/banner2.png') }}" alt="Girl in a jacket" width="200" height="200"></div>
+            <div><img src="{{ asset('posters/banner3.png') }}" alt="Girl in a jacket" width="200" height="200"></div>
+            <div><img src="{{ asset('posters/banner4.png') }}" alt="Girl in a jacket" width="200" height="200"></div>
+            <div><img src="{{ asset('posters/banner6.png') }}" alt="Girl in a jacket" width="200" height="200"></div>
+            <div><img src="{{ asset('posters/banner7.jpg') }}" alt="Girl in a jacket" width="200" height="200"></div>
+            <div><img src="{{ asset('posters/banner8.png') }}" alt="Girl in a jacket" width="200" height="200"></div>
+        </div>
+    </div>
+
+    <br>
+    <h1>Noticias</h1>
+    <div class="container">
+        <div class="row slider">
+            <div><img src="{{ asset('posters/banner1.png') }}" alt="Girl in a jacket" width="200" height="200"></div>
+            <div><img src="{{ asset('posters/banner2.png') }}" alt="Girl in a jacket" width="200" height="200"></div>
+            <div><img src="{{ asset('posters/banner3.png') }}" alt="Girl in a jacket" width="200" height="200"></div>
+            <div><img src="{{ asset('posters/banner4.png') }}" alt="Girl in a jacket" width="200" height="200"></div>
+            <div><img src="{{ asset('posters/banner6.png') }}" alt="Girl in a jacket" width="200" height="200"></div>
+            <div><img src="{{ asset('posters/banner7.jpg') }}" alt="Girl in a jacket" width="200" height="200"></div>
+            <div><img src="{{ asset('posters/banner8.png') }}" alt="Girl in a jacket" width="200" height="200"></div>
+            <div><img src="{{ asset('posters/banner6.png') }}" alt="Girl in a jacket" width="200" height="200"></div>
+            <div><img src="{{ asset('posters/banner7.jpg') }}" alt="Girl in a jacket" width="200" height="200"></div>
+            <div><img src="{{ asset('posters/banner8.png') }}" alt="Girl in a jacket" width="200" height="200"></div>
+        </div>
+    </div>
+
+    <br>
+    <h1>Religioso</h1>
+    <div class="container">
+        <div class="row slider">
+            <div><img src="{{ asset('posters/banner1.png') }}" alt="Girl in a jacket" width="200" height="200"></div>
+            <div><img src="{{ asset('posters/banner2.png') }}" alt="Girl in a jacket" width="200" height="200"></div>
+            <div><img src="{{ asset('posters/banner3.png') }}" alt="Girl in a jacket" width="200" height="200"></div>
+        </div>
+    </div>
+    
+
+
 @endsection
