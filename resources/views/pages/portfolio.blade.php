@@ -4,7 +4,7 @@
     @include('layouts.partials.carousel')
 
     <br>
-    <h1>Locales</h1>
+    <h1 style="color: {{ session('textCategoryColor') }}" >Locales</h1>
     <div class="container">
         <div class="row slider">
             <div><img src="{{ asset('posters/banner1.png') }}" alt="Girl in a jacket" width="200" height="200"></div>
@@ -18,7 +18,7 @@
     </div>
 
     <br>
-    <h1>Noticias</h1>
+    <h1 style="color: {{ session('textCategoryColor') }}">Noticias</h1>
     <div class="container">
         <div class="row slider">
             <div><img src="{{ asset('posters/banner1.png') }}" alt="Girl in a jacket" width="200" height="200"></div>
@@ -35,7 +35,7 @@
     </div>
 
     <br>
-    <h1>Religioso</h1>
+    <h1 style="color: {{ session('textCategoryColor') }}" >Religioso</h1>
     <div class="container">
         <div class="row slider">
             <div><img src="{{ asset('posters/banner1.png') }}" alt="Girl in a jacket" width="200" height="200"></div>
